@@ -1,0 +1,76 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+dist/
+build/
+
+# Dependency directories
+jspm_packages/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+
+# Cache directories and files
+.cache/
+.nyc_output/
+coverage/
+*.lcov
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE or editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+*.rej
+
+# Test files and reports
+*.test.js
+*.spec.js
+*.test.ts
+*.spec.ts
+coverage/
+
+# Package lockfiles (optional if not using lockfiles for version control)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Debugger statements (optional for production-ready code)
+*.log
+*.debug
+
+# Others
+*.bak
+*.orig
+*.rej
